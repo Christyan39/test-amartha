@@ -2,10 +2,16 @@
 This repo created to fulfill challenge from Amartha
 
 ## Initialization
+Prepare Database as dump at https://github.com/Christyan39/test-amartha/tree/main/dump
+
 After cloning this repo please run 
 > make init
 
-Prepare Database as dump at https://github.com/Christyan39/test-amartha/tree/main/dump
+To run project can using 
+> go run main.go 
+
+or 
+> ./bin/amartha
 
 To run the test using
 > make test
